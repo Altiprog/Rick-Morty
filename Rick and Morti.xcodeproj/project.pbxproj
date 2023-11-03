@@ -113,6 +113,33 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		7C78390D2AF574BB00140CCC /* Resorses */ = {
+			isa = PBXGroup;
+			children = (
+				7C8EE2D72AF0EE650042E007 /* Assets.xcassets */,
+			);
+			path = Resorses;
+			sourceTree = "<group>";
+		};
+		7C78390E2AF574D300140CCC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7C8EE2D42AF0EE630042E007 /* Main.storyboard */,
+				7C8EE2D92AF0EE650042E007 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7C78390F2AF574F200140CCC /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7C8EE2D02AF0EE630042E007 /* SceneDelegate.swift */,
+				7C8EE2CE2AF0EE630042E007 /* AppDelegate.swift */,
+				7C8EE2DC2AF0EE650042E007 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		7C8EE2C22AF0EE630042E007 = {
 			isa = PBXGroup;
 			children = (
@@ -132,14 +159,11 @@
 		7C8EE2CD2AF0EE630042E007 /* Rick and Morti */ = {
 			isa = PBXGroup;
 			children = (
-				7C8EE2CE2AF0EE630042E007 /* AppDelegate.swift */,
-				7C8EE2D02AF0EE630042E007 /* SceneDelegate.swift */,
-				7C8EE2D42AF0EE630042E007 /* Main.storyboard */,
+				7C78390E2AF574D300140CCC /* Storyboards */,
 				7C78390A2AF54A3D00140CCC /* Models */,
 				7C7839092AF54A2200140CCC /* ViewControllers */,
-				7C8EE2D72AF0EE650042E007 /* Assets.xcassets */,
-				7C8EE2D92AF0EE650042E007 /* LaunchScreen.storyboard */,
-				7C8EE2DC2AF0EE650042E007 /* Info.plist */,
+				7C78390D2AF574BB00140CCC /* Resorses */,
+				7C78390F2AF574F200140CCC /* SupportingFiles */,
 				7C78390C2AF5527600140CCC /* Sounds */,
 			);
 			path = "Rick and Morti";
@@ -390,7 +414,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AX9Y7R4RY2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Rick and Morti/Info.plist";
+				INFOPLIST_FILE = "Rick and Morti/SupportingFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -422,7 +446,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AX9Y7R4RY2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Rick and Morti/Info.plist";
+				INFOPLIST_FILE = "Rick and Morti/SupportingFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
