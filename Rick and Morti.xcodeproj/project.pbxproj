@@ -77,11 +77,11 @@
 			isa = PBXGroup;
 			children = (
 				7C8EE2D22AF0EE630042E007 /* StartViewController.swift */,
-				7C8EE2E42AF125080042E007 /* PlumbusViewController.swift */,
 				7C0182B82AF15906004491EA /* PersonsTableViewController.swift */,
 				7C9B1BBE2AF39F5F007AFC2E /* PersonInfoViewController.swift */,
-				7C7839072AF51F2900140CCC /* LastScreenViewController.swift */,
+				7C8EE2E42AF125080042E007 /* PlumbusViewController.swift */,
 				7C8EE2E62AF1252F0042E007 /* PlumbusSettingsViewController.swift */,
+				7C7839072AF51F2900140CCC /* LastScreenViewController.swift */,
 				7C8EE2E22AF124D60042E007 /* InformationViewController.swift */,
 			);
 			path = ViewControllers;

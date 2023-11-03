@@ -16,6 +16,8 @@ class PersonInfoViewController: UIViewController {
 
     @IBOutlet weak var button: UIButton!
     
+    var name: Person!
+    
     var about: About!
     
     var player: AVAudioPlayer!
@@ -25,6 +27,9 @@ class PersonInfoViewController: UIViewController {
         imagePerson.image = UIImage(named: about.picture)
         informaitionAbout.text = about.infoAbout
         
+        title = name.name
+  
+    
       
     }
     

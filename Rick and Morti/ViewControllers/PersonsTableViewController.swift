@@ -26,7 +26,7 @@ class PersonsTableViewController: UITableViewController {
         guard let indexPath = tableView.indexPathForSelectedRow else {return}
         guard let persInfoVC = segue.destination as? PersonInfoViewController else {return}
         persInfoVC.about = information[indexPath.section].person[indexPath.row].about
-        
+        persInfoVC.name = information[indexPath.section].person[indexPath.row]
     }
     
     
