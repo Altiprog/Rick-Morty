@@ -8,24 +8,29 @@
 import UIKit
 
 class InformationViewController: UIViewController {
-
-    var information: [Information]! 
     
+    @IBOutlet weak var rick: UIImageView!
+    @IBOutlet weak var morty: UIImageView!
+    @IBOutlet weak var jerry: UIImageView!
+    @IBOutlet weak var beth: UIImageView!
+    @IBOutlet weak var summer: UIImageView!
+    @IBOutlet weak var mg: UIImageView!
+    @IBOutlet weak var missiks: UIImageView!
+    @IBOutlet weak var zeeo: UIImageView!
+    @IBOutlet weak var scarry: UIImageView!
+    @IBOutlet weak var squanchy: UIImageView!
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        rick.image = UIImage(named: "Rick")
+        morty.image = UIImage(named: "Morty")
+        jerry.image = UIImage(named: "Jerry")
+        beth.image = UIImage(named: "Beth")
+        summer.image = UIImage(named: "Summer")
+        mg.image = UIImage(named: "MG")
+        missiks.image = UIImage(named: "Meeseeks")
+        zeeo.image = UIImage(named: "Zeep")
+        scarry.image = UIImage(named: "SCARY-TERRY")
+        squanchy.image = UIImage(named: "Squanchy")
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
